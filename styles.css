@@ -28,6 +28,10 @@ strong {
     padding: 64px 0;
 }
 
+.wrapper:first-child {
+  padding-top: 96px;
+}
+
 .wrapper:last-child {
     background-color: rgb(102,102,102);
     border-top: 8px solid rgb(153,153,153);
@@ -42,6 +46,10 @@ strong {
 
 .wrapper:first-child .card {
     padding-block: 0;
+}
+
+.wrapper:first-child .card > div {
+  max-width: 415px;
 }
 
 .wrapper:first-child .card h1 {
