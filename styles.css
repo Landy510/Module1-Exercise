@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+h2 {
+    line-height: 120%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+strong {
+    font-weight: 800;
+    color: rgb(0, 153, 102);
+}
+
+.wrapper {
+    padding: 64px 0;
+}
+
+.wrapper:last-child {
+    background-color: rgb(102,102,102);
+    border-top: 8px solid rgb(153,153,153);
+}
+
+.card {
+    max-width: 800px;
+    padding: 24px;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+}
+
+.wrapper:first-child .card {
+    padding-block: 0;
+}
+
+.wrapper:first-child .card h1 {
+    margin-bottom: 48px;
+}
+
+.wrapper:first-child .card p:first-of-type {
+    margin-bottom: 16px;
+}
+
+.wrapper:last-child .card {
+    border-bottom: 8px solid rgb(153,153,153);
+}
+
+.wrapper:last-child .card h2 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 16px 32px;
+    margin-left: -32px;
+    margin-top: -16px;
+    margin-bottom: 16px;
+    background-color: rgb(255, 191, 9);
+    border-bottom: 8px solid rgb(204, 153, 0);
+}
+
+.wrapper:last-child .card p {
+    font-weight: 500;
+}
+
+.wrapper:last-child .card p:first-of-type {
+    margin-bottom: 16px;
+}
+
+.divider {
+    height: 2px;
+    background-color: rgb(0,0, 100);
+}
